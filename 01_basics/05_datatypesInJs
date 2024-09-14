@@ -1,0 +1,25 @@
+// Primitive
+
+//=> 7 types : String , Number , Booloean , null , undefined , Symbol, BigInt
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+// console.log(id === anotherId);
+
+const bigNumber = 34543354322345433n//n=> bigInt
+// Reference (Non-Primitive)
+
+//=> 3 Types : Array , Objects , Functions
+
+const heros=["dcfd","dfvf","rfgg"]
+let myObj = {
+    name : "vaibhav",
+    age : 18
+}
+
+const myFunction =function(){
+    console.log("hello");
+    
+}
+console.log(typeof anotherId);
